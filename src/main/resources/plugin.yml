@@ -1,0 +1,4 @@
+name: PlayitGG
+version: '${project.version}'
+main: me.itoncek.playitplugin.PlayitGG
+api-version: 1.18
