@@ -42,7 +42,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B deploy --settings .m2/settings.xml --file pom.xml
         env:
-          USER_NAME: ${{ secrets.USER_NAME }}
+          USER_NAME: ${{ secrets.USER }}
           ACCESS_TOKEN: ${{ secrets.TOKEN }}
       - uses: actions/upload-artifact@v2
         with:
